@@ -554,6 +554,9 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     transition: 1s;
 }
 @media(max-width : 551px){
+    .aboutme{
+        font-size: 18px;
+    }
     .cloud2{
         font-size: 15px;
         left: 25%;

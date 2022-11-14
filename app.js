@@ -35,7 +35,7 @@ gsap.registerPlugin(ScrollTrigger);
         x : 0,
         duration:1,
     }); 
-gsap.to(".boatbox", {
+    gsap.to(".boatbox", {
         scrollTrigger: {
             trigger:".boatbox",
             start:"top 500",

@@ -46,6 +46,115 @@ main{
     box-shadow: 4px 4px rgba(0,0,0,0.2);
     transform: translate(-4px,-4px);
 }
+.boatbox{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 1%;
+    bottom: 8%;
+    width: 200px;
+    height: 200px;
+}
+.boatbody{
+    background-color: black;
+    width: 80px;
+    height: 27px;
+}
+.boatsteam{
+    position: absolute;
+    right: 38px;
+    top: 73px;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 35px solid black;
+    transform: rotateZ(58deg);
+}
+.boatsteam2{
+    left: 37px;
+    transform: rotateZ(-58deg);
+}
+.boatstick{
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    width: 3px;
+    height: 65px;
+    background-color: black;
+}
+.boatsheet{
+    position: absolute; 
+    top: 30px;
+    left: 90px;
+    border-left: 35px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid rgba(236, 231, 231, 0.5);
+    transform: rotateZ(90deg);
+}
+.pirate{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    transform: rotateZ(-10deg);
+}
+.boathead{
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.boatbodystick{
+    position: absolute;
+    top: 40px;
+    left: 39px;
+    width: 4px;
+    height: 18px;
+    background-color: white;
+}
+.boatleg{
+    position: absolute;
+    top: 50px;
+    left: 35px;
+    width: 2px;
+    height: 9px;
+    background-color: white;
+    transform: rotateZ(120deg);
+}
+.boatleg2{
+    position: absolute;
+    top: 51px;
+    left: 29px;
+    width: 2px;
+    height: 9px;
+    background-color: white;
+    transform: rotateZ(35deg);
+}
+.boatleg3{
+    position: absolute;
+    top: 55px;
+    left: 43px;
+    width: 2px;
+    height: 12px;
+    background-color: white;
+    transform: rotateZ(-40deg);
+}
+.boathand{
+    position: absolute;
+    top: 42px;
+    left: 35px;
+    width: 2px;
+    height: 10px;
+    background-color: white;
+    transform: rotateZ(120deg);
+}
 .svgcircle{
     position: absolute;
     right: 0;
@@ -313,6 +422,9 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     border-radius: 50%;
 }
 @media(max-width : 551px){
+    .pagenumber{
+        font-size: 30px;
+    }
     .whoim p{
         font-size: 25px;
     }

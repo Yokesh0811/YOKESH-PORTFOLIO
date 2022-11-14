@@ -34,7 +34,17 @@ gsap.registerPlugin(ScrollTrigger);
         },
         x : 0,
         duration:1,
-    });  
+    }); 
+gsap.to(".boatbox", {
+        scrollTrigger: {
+            trigger:".boatbox",
+            start:"top 500",
+            end:"bottom 100",
+            scrub:1,
+        },
+        x : -350,
+        duration:2,
+    });
     gsap.to(".cloudcome", {
         scrollTrigger: {
             trigger:".about1",

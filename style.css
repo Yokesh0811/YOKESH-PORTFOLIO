@@ -865,64 +865,75 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     flex-direction: column;
     opacity: 0;
 }
+.blogslist{
+    position: absolute;
+    width: 80%;
+    top: 10px;
+    left: 30px;
+}
+.blogbox{
+    position: absolute;
+    color: white;
+    background-color: #232120a4;
+    left: 10px;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.blog2{
+    top: 115px;
+}
+.blogbox:hover h2{
+    color: black;
+}
+.blogbox h2{
+    letter-spacing: 1px;
+}
+.bloglist a:visited h1{
+    color: white;
+}
+.metitle{
+   position: absolute;
+   bottom: 100px;
+   letter-spacing: 2px;
+   text-align: center;
+   text-shadow: 3px 3px rgba(60, 59, 59, 0.84);
+}
+.miniprojects{
+    width: 80%;
+    position: absolute;
+    top: 120px;
+    left: 10px;
+}
+.mp{
+    top: 150px;
+    left: 30px;
+}
+.mp2{
+    top: 220px;
+}
+.mp3{
+    top: 288px;
+}
+.mp4{
+    top: 355px;
+}
+.minipro {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
 .cmetitle{
    position: absolute;
    top: 25px;
    letter-spacing: 2px;
    text-align: center;
    text-shadow: 3px 3px rgba(60, 59, 59, 0.84);
-}
-.contactform{
-    width: 330px;
-    height: 480px;
-    padding: 10px;
-    background-color: #232120a4;
-    box-shadow: 5px 8px rgba(0,0,0,0.2);
-    color: white;
-    border-radius: 8px;
-}
-.ctitle{
-    text-align: center;
-    margin-top: 5px;
-    text-shadow: 5px 5px rgba(21, 21, 21, 0.9);
-}
-.ctags{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.contactform label{
-    margin-left: -245px;
-    font-size: 25px;
-}
-.contactform input{
-    width: 300px;
-    height: 35px;
-    font-size: 22px;
-    border-radius: 5px;
-}
-.cmessage{
-    margin-right: -37px;
-}
-.cbuttons{
-    width: 100%;
-    height: 120px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.cbuttons button{  
-    background-color: #ffffff;
-    font-weight: bold;
-    width: 90px;
-    height: 40px;
-    font-size: 20px;
-    border-radius: 25px;
 }
 .sendmail{
     margin-left: 50px;

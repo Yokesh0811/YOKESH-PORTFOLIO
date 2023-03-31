@@ -8,10 +8,6 @@ function parallax(e){
         move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
 }
-const resume = document.querySelector('.resumebtn');
-resume.addEventListener('click',()=>{
-    alert("RESUME not attached yet!!!");
-})
 gsap.registerPlugin(ScrollTrigger);
     gsap.to(".symbols", {
         scrollTrigger: {

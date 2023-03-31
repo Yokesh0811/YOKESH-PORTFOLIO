@@ -713,11 +713,10 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
     position: absolute;
     top: 150px;
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 280px;
     border-radius: 5px;
     background-color: #3d3a39;
     overflow: hidden;
@@ -732,8 +731,8 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
 }
 .rajiniproject{
     border-radius: 5px;
-    width: 290px;
-    height: 290px;
+    width: 310px;
+    height: 280px;
     background: url(./images/rajini.jpg);
     background-size: cover;
 }
@@ -743,9 +742,9 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 300px;
-    height: 300px;
-    border: 5px solid black;
+    width: 310px;
+    height: 280px;
+    border: 5px solid whitesmoke;
     background-color: rgba(0, 0, 0, 0.5);
     transform: translateX(100%);
     transition: 0.5s;
@@ -756,8 +755,8 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
 }
 .visit{
     cursor: pointer;
-    border: 4px solid black;
-    background-color: rgb(255, 255, 255);
+    border: 4px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
     font-weight: 600;
     width: 80px;
@@ -769,8 +768,8 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
 }
 .pepsiproject{
     border-radius: 5px;
-    width: 290px;
-    height: 290px;
+    width: 310px;
+    height: 280px;
     background: url(./images/Avengers.jpg);
     background-size: cover;
 }
@@ -799,8 +798,8 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     position: absolute;
     background: url(./images/oceanPollution.png);
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    width: 310px;
+    height: 280px;
     font-size: 90px;
 }
 .projectno33 .pro3title{

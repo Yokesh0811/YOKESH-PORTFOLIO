@@ -946,7 +946,7 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
 .sendmail i{
     color: black;
     font-size: 25px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 .cbuttons button{  
     background-color: #ffffff;
@@ -965,9 +965,13 @@ box-shadow: -25px -25px 80px 0px rgba(0,0,0,0.25);
     bottom: 15px;
     
 }
+.remixcon{
+    margin-top: 10px;
+}
 .cicons a{
     text-decoration: none;
     color: black;
+    margin-left: 35px;
 }
 .cicons a:visited{
     text-decoration: none;
